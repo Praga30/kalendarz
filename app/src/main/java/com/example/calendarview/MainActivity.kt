@@ -32,13 +32,13 @@ class MainActivity : AppCompatActivity() {
             data_przyj[0] = data[0]
             data_przyj[1] = data[1]
             data_przyj[2] = data[2]
-            powrottxt.text="Data powrotu: "+data[0].toString()+"-"+data[1].toString()+"-"+data[2].toString()
+            powrottxt.text="Data powrotu: "+data[2].toString()+"-"+data[1].toString()+"-"+data[0].toString()
         }
         wyjazd.setOnClickListener {
             data_odj[0]=data[0]
             data_odj[1]=data[1]
             data_odj[2]=data[2]
-            wyjazdtxt.text="Data wyjazdu: "+data[0].toString()+"-"+data[1].toString()+"-"+data[2].toString()
+            wyjazdtxt.text="Data wyjazdu: "+data[2].toString()+"-"+data[1].toString()+"-"+data[0].toString()
         }
 
         licz.setOnClickListener {

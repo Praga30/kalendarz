@@ -23,6 +23,11 @@ class MainActivity : AppCompatActivity() {
         var data= arrayListOf<Int>(0,0,0)
         var data_odj= arrayListOf<Int>(0,0,0)
         var data_przyj= mutableListOf<Int>(0,0,0)
-        
+        kalendarz.setOnDateChangeListener(){ CalendarView, i, a, b ->
+            data[0]=i
+            data[1]=a+1
+            data[2]=b
+        }
+
         }
 }

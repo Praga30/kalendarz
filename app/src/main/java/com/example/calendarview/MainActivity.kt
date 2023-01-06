@@ -28,6 +28,12 @@ class MainActivity : AppCompatActivity() {
             data[1]=a+1
             data[2]=b
         }
+        wyjazd.setOnClickListener {
+            data_odj[0]=data[0]
+            data_odj[1]=data[1]
+            data_odj[2]=data[2]
+            wyjazdtxt.text="Data wyjazdu: "+data[0].toString()+"-"+data[1].toString()+"-"+data[2].toString()
+        }
 
         }
 }

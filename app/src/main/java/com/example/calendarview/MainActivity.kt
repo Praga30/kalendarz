@@ -44,8 +44,16 @@ class MainActivity : AppCompatActivity() {
         licz.setOnClickListener {
             var tempprzyj=(data_przyj[0]+360)+(data_przyj[1]+30)+data_przyj[2]
             var tempodj=(data_odj[0]+360)+(data_odj[1]+30)+data_odj[2]
-            var templicz=(tempprzyj.toChar()-tempodj.toChar()).toString()
+            var templicz=(tempprzyj.toChar()-tempodj.toChar())
+            if(templicz<0)
+            {
+                licztxt.text="Niepoprawna data powrotu"
+            }
+            else
+            {
+                templicz.toString()
             licztxt.text="Ilosc dni: "+templicz
+            }
         }
         }
 }

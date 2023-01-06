@@ -33,16 +33,16 @@
 
     <TextView
         android:id="@+id/policztext"
-        android:layout_width="100dp"
-        android:layout_height="44dp"
+        android:layout_width="164dp"
+        android:layout_height="48dp"
         android:gravity="center"
         android:textSize="50px"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.81" />
+        app:layout_constraintVertical_bias="0.815" />
 
     <Button
         android:id="@+id/wyjazd"

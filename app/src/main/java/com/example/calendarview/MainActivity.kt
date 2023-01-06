@@ -34,6 +34,11 @@ class MainActivity : AppCompatActivity() {
             data_odj[2]=data[2]
             wyjazdtxt.text="Data wyjazdu: "+data[0].toString()+"-"+data[1].toString()+"-"+data[2].toString()
         }
-
+        powrot.setOnClickListener {
+            data_przyj[0] = data[0]
+            data_przyj[1] = data[1]
+            data_przyj[2] = data[2]
+            powrottxt.text="Data powrotu: "+data[0].toString()+"-"+data[1].toString()+"-"+data[2].toString()
+        }
         }
 }
